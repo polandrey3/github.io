@@ -1,0 +1,37 @@
+body{
+  text-align: center;
+  color: white;
+  background: linear-gradient(to right, black, rgb(4, 139, 208));
+}
+div{
+  margin-top: 10px;
+  margin-left:40px ;
+  width: 28%;
+  height: 600px;
+  border: 5px solid white;
+  border-radius: 20px;
+  box-shadow: 0 0 20px white;
+  float: left;
+  transition-duration: 1s;
+  transition: 3s;
+}
+div:hover{
+  border-radius: 20px;
+  font-size: 20px;
+  text-shadow: 0 0 10px white;
+  transform: rotate(-360deg);
+}
+img{
+  width: 80%;
+}
+.gradient-text {
+  font-family: 'Rubik One', sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0B2349;
+  display: table;
+  margin: 20px auto;
+}
